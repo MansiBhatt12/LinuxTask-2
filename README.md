@@ -1,13 +1,13 @@
 # LinuxTask2 :- Linux Shell Script for MySQL Database Backup using Cron Job
 
-# Problem Satement - Create a Linux shell script that performs the following tasks:
+--> Problem Satement - Create a Linux shell script that performs the following tasks:
     1. Automatically detects the OS architecture like Ubuntu or RHEL and installs MySQL accordingly.
     2. Creates a database named "test" and a table within it, and inserts some information.
     3. Takes a backup of the "test" database.
     4. Creates a tar file of the backup and stores it in the **`/tmp`** directory.
     5. Also create a cron job to run backup scripts every day at 10 PM.
 
-# Solution -
+--> Solution -
 1. [Specify any prerequisites or dependencies needed for the task].
 2. Clone the repository to your local machine.
 3. Make sure to replace the password of root "-ptest" and the path "/home/varun/LinuxTask/script_name.sh" with the actual path to your backup script. Additionally, ensure that the script has the   necessary permissions to be executed "chmod +x filename".
