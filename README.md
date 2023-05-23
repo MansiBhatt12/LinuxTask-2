@@ -1,4 +1,4 @@
-# LinuxTask-2 :- Linux Shell Script for MySQL Database Backup using Cron Job
+# LinuxTask-2- Linux Shell Script for MySQL Database Backup using Cron Job
 
 # Problem Satement - Create a Linux shell script that performs the following tasks:
     1. Automatically detects the OS architecture like Ubuntu or RHEL and installs MySQL accordingly.
