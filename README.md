@@ -17,5 +17,6 @@
 7. Add a new cron job entry to schedule a backup script to run every day at 10 PM, add the following line to your cron table: ''' 0 22 * * * /bin/bash /home/varun/LinuxTask/script_name.sh '''
 8. NOTE: Adjust the schedule and command according to your requirements and path of directory.
 9. Save the changes and exit the editor.
-10. The cron job will now run automatically based on the specified schedule.
-11. The backup script "script_name.sh" will now be executed and automatically detect the OS architecture either it is Ubuntu or RHEL, install MySQL, create the database, insert data, take a backup, and create a tar file in the /tmp directory every day at 10 PM according to the system's time.
+
+--> The cron job will now run automatically based on the specified schedule.
+--> The backup script "script_name.sh" will now be executed and automatically detect the OS architecture either it is Ubuntu or RHEL, install MySQL, create the database, insert data, take a backup, and create a tar file in the /tmp directory every day at 10 PM according to the system's time.
